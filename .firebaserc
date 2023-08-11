@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "angular-notes-be170"
+  },
+  "targets": {
+    "angular-notes-be170": {
+      "hosting": {
+        "AngularNotes": [
+          "angular-notes-be170"
+        ]
+      }
+    }
+  }
+}

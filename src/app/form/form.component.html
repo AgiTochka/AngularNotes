@@ -1,0 +1,11 @@
+<form class="note-form">
+  <mat-icon class="icon-close" mat-button (click)="close()">close</mat-icon>
+  <div class="input-block">
+    Name: <input matInput  [(ngModel)]="data.note.name" [ngModelOptions]="{standalone: true}"/>
+  </div>
+  <div class="input-block">
+    Description:
+    <div class="editorWrapper" #editor></div>
+  </div>
+  <input mat-button type="submit" class="btn-add-new" (click)="saveEditorData()" value="Save"  [mat-dialog-close]="{ note: data.note }"/>
+</form>

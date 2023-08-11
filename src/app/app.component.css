@@ -1,0 +1,17 @@
+.main {
+  width: 80vw;
+  margin: 25px auto 50px;
+}
+.footer{
+  height: 100px;
+}
+h1 {
+  text-align: center;
+}
+.btn-add {
+  margin: 25px;
+  padding: 15px;
+  border: 1px solid black;
+  background: red;
+
+}

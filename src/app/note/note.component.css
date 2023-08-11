@@ -1,0 +1,27 @@
+.card {
+  width: 90%;
+  margin: 25px auto;
+  background: red;
+  text-align: start;
+  border: 1px solid black;
+  padding: 15px 15px 25px;
+}
+h1 {
+  margin-bottom: 10px;
+  justify-self: start;
+}
+hr {
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+.title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.icons{
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

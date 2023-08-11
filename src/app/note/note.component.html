@@ -1,0 +1,11 @@
+<div class="card" *ngIf="note">
+  <div class="title">
+    <h1>{{ note.name }}</h1>
+    <div class="icons">
+      <mat-icon (click)="edit.emit(note)"> mode </mat-icon> <mat-icon (click)="delete.emit(note)">delete</mat-icon>
+    </div>
+  </div>
+  <p>Date: {{ note.date.toDate() | date : 'MMM d, y, HH:mm'  }}</p>
+  <hr />
+  <span id="description" [innerHTML]="parseDescription(note.description)"></span>
+</div>

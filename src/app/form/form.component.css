@@ -1,0 +1,31 @@
+.note-form {
+  color: red;
+  padding: 30px 50px;
+  margin: auto;
+  background: white;
+  border: 1px solid black;
+  width: fit-content;
+}
+.btn-add-new{
+  margin-top: 25px;
+  padding: 15px;
+  border: 1px solid black;
+  background: red;
+}
+.input-block{
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.input-block textarea{
+  width: 400px;
+  resize: vertical;
+}
+.icon-close{
+  position: relative;
+  left: 100%;
+}
+.editorWrapper{
+  min-width: 400px;
+  max-height: 600px;
+}
